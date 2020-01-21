@@ -14,6 +14,9 @@ class Convertible(Car):
         super().__init__(**kwargs)
         self.open_roof = True
 
+    def openning_roof:
+        print("I can open my roof!")
+
 
 porche = Convertible(color = "Red")
 print(porche.color)
